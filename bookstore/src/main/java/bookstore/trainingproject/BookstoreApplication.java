@@ -3,7 +3,7 @@ package bookstore.trainingproject;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication (scanBasePackages = "bookstore")
 public class BookstoreApplication {
 
 	public static void main(String[] args) {
